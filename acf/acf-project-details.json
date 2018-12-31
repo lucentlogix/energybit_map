@@ -1,0 +1,42 @@
+{
+  "key": "group_5c29825db8fef",
+  "title": "Project Details",
+  "fields": [
+    {
+      "key": "field_5c298267b69c5",
+      "label": "Location",
+      "name": "location",
+      "type": "google_map",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "center_lat": "",
+      "center_lng": "",
+      "zoom": "",
+      "height": ""
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "post_type",
+        "operator": "==",
+        "value": "project"
+      }
+    ]
+  ],
+  "menu_order": 0,
+  "position": "side",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": "",
+  "active": 1,
+  "description": "",
+  "modified": 1546224256
+}

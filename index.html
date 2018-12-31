@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Map Mockup</title>
+    <script>
+      let projects = [
+        {
+          lat: "59.92026366457057",
+          lon: "10.754398992389497",
+          title: "NoEnergy",
+          link: "http:\/\/localhost:8000\/project\/noenergy\/",
+          fields: [{ label: "Phone Number", value: "321321321" }, { label: "Launch Date", value: "December 24, 2025" }],
+        },
+        {
+          lat: "7.912465339296643",
+          lon: "98.34340814521784",
+          title: "T77 Extreme",
+          link: "http:\/\/localhost:8000\/project\/t77-extreme\/",
+          fields: [{ label: "Phone Number", value: "321321321" }, { label: "Launch Date", value: "December 13, 2018" }],
+        },
+      ]
+    </script>
+  </head>
+  <body>
+    <div id="energybit-map-container"></div>
+    <script src="./src/js/energy_bit.js"></script>
+  </body>
+</html>
